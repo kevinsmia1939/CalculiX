@@ -1281,7 +1281,7 @@ void *mafillv1rhsmt(ITG *i){
 		       depth1,&dgravity1,cocon1,ncocon1,iinc1,&theta11,
 		       &reltimef1,&b1[indexb1]));
 
-  return NULL;
+  return;
 }
 
 /* subroutine for multithreading of mafillprhs */
@@ -1301,7 +1301,7 @@ void *mafillprhsmt(ITG *i){
 		      nmpc1,&b1[indexb1],nactdoh1,mi1,v1,&theta11,&nea,&neb,
 		      &dtimef1,ipvar1,var1,&compressible1));
 
-  return NULL;
+  return;
 }
 
 /* subroutine for multithreading of mafillv2rhs */
@@ -1320,7 +1320,7 @@ void *mafillv2rhsmt(ITG *i){
   FORTRAN(mafillv2rhs,(kon1,ipkon1,lakon1,&b2[indexb2],v1,&nea,&neb,mi1,
 		       &dtimef1,ipvar1,var1,nk1));
 
-  return NULL;
+  return;
 }
 
 /* subroutine for multithreading of smoothshock */
@@ -1337,7 +1337,7 @@ void *smoothshockmt(ITG *i){
   FORTRAN(smoothshock,(aub1,sol1,aux1,irow1,jq1,
 			  &neqa,&neqb));
 
-  return NULL;
+  return;
 }
 
 /* subroutine for multithreading of smoothshockappend */
@@ -1354,7 +1354,7 @@ void *smoothshockappendmt(ITG *i){
   FORTRAN(smoothshockappend,(adl1,sol1,aux1,
 			  &neqa,&neqb,sa1));
 
-  return NULL;
+  return;
 }
 
 /* subroutine for collecting results */
@@ -1375,7 +1375,7 @@ void *collectingmt(ITG *i){
     }
   }
 
-  return NULL;
+  return;
 }
 
 /* adding a vector to another */
@@ -1393,7 +1393,7 @@ void *addmt(ITG *i){
     v1[j]+=sol1[j];
   }
 
-  return NULL;
+  return;
 }
 
 /* predicting the new physical variables by linear 
@@ -1418,7 +1418,7 @@ void *predictmt(ITG *i){
     }
   }
 
-  return NULL;
+  return;
 }
 
 /* deriving the physical variables from the conservative
@@ -1438,7 +1438,7 @@ void *con2physmt(ITG *i){
 		    inomat1,mi1,&ierr1[*i],ifreesurface1,&dgravity1,depth1,
 		    &nka,&nkb));
 
-  return NULL;
+  return;
 }
 
 /* deriving the physical variables from the conservative
@@ -1458,7 +1458,7 @@ void *phys2conmt(ITG *i){
 		    mi1,ifreesurface1,&ierr1[*i],&dgravity1,depth1,nk1,
 		    &nka,&nkb));
 
-  return NULL;
+  return;
 }
 
 /* update the conservative variables
@@ -1476,7 +1476,7 @@ void *updateconmt(ITG *i){
   FORTRAN(updatecon,(vold1,vcon1,v1,nk1,ithermal1,iturbulent1,mi1,
 		     &compressible1,&nka,&nkb));
 
-  return NULL;
+  return;
 }
 
 /* calculate the squares of the conservative variables and their
@@ -1494,7 +1494,7 @@ void *calcdevmt(ITG *i){
   FORTRAN(calcdev,(vold1,vcon1,v1,nk1,iturbulent1,mi1,&vconmax1[7**i],
 		   &vmax1[7**i],&iexplicit1,&nka,&nkb));
 
-  return NULL;
+  return;
 }
 
 /* calculating the pressure gradient for the shock smoothing in
@@ -1513,7 +1513,7 @@ void *presgradientmt(ITG *i){
 			&dtimef1,ipkon1,kon1,lakon1,vold1,mi1,
 			nactdoh1,&nka,&nkb));
 
-  return NULL;
+  return;
 }
       
 /* inserting SPC's/MPC's to the physical variables */
@@ -1556,5 +1556,5 @@ void *applybounfemmt(ITG *i){
 			&nbounb,&nmpca,&nmpcb,&nfreestreama,&nfreestreamb,
 			&nsolidsurfa,&nsolidsurfb));
 
-  return NULL;
+  return;
 }

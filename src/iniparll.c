@@ -163,7 +163,7 @@ void *iniparllmt(ITG *i){
     }
   }
 
-  return NULL;
+  return;
 }
 
 void *iniparllmt_massless(ITG *i){
@@ -203,5 +203,5 @@ void *iniparllmt_massless(ITG *i){
     }
   }
 
-  return NULL;
+  return;
 }

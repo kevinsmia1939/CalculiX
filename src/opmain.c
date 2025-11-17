@@ -130,7 +130,7 @@ void *opmt(ITG *i){
 
   FORTRAN(op,(x1,&yy[indexf],ad1,au1,jq1,irow1,&na,&nb));
 
-  return NULL;
+  return;
 }
 
 /* collecting the results */
@@ -154,6 +154,6 @@ void *opcollect(ITG *i){
     }
   }
 
-  return NULL;
+  return;
 }
 

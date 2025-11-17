@@ -210,7 +210,7 @@ calculix_searchExternalBehaviour(const char* n){
 #ifdef CALCULIX_EXTERNAL_BEHAVIOUR_DEBUG
   fprintf(stdout,"searchExternalBehaviour: material not registered yet\n");
 #endif
-  return NULL;
+  return;
 }
 
 void calculix_registerExternalBehaviour(const char* n) {

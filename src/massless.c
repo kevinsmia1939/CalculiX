@@ -655,7 +655,7 @@ void *massless1mt(ITG *i){
     }
   }
        
-  return NULL;
+  return;
 }
 
 
@@ -679,7 +679,7 @@ void *massless2mt(ITG *i){
     }
   }
        
-  return NULL;
+  return;
 }
 
 /* subroutine for multithreading of the calculation of the
@@ -698,5 +698,5 @@ void *massless3mt(ITG *i){
     b1[j]=fext1[j]-rhs1[j]+b1[j];
   }
        
-  return NULL;
+  return;
 }

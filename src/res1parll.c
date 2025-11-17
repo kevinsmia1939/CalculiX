@@ -103,5 +103,5 @@ void *res1parllmt(ITG *i){
 	}
     }
 
-    return NULL;
+    return;
 }

@@ -89,5 +89,5 @@ void *setparitgmt(ITG *i){
     	iva11[j]=*iva21;
     }
 
-    return NULL;
+    return;
 }

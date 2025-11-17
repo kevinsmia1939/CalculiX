@@ -101,5 +101,5 @@ void *res3parllmt(ITG *i){
 	}
     }
 
-    return NULL;
+    return;
 }

@@ -2198,7 +2198,7 @@ void *objectivemt_shapeener_dx(ITG *i){
 				  &iobject1,sti1,xener1,istartdesi1,ialdesi1,
 				  xdesi1,&idesvar1,physcon1));
 
-  return NULL;
+  return;
 }
 
 /* ---------------------------------------------------*/
@@ -2222,7 +2222,7 @@ void *objectivemt_mass_dx(ITG *i){
 			     &dgdx1[indexdgdx],&iobject1,xmass1,istartdesi1,
 			     ialdesi1,xdesi1,&idesvar1));
           
-  return NULL;
+  return;
 }
 	      
 
@@ -2297,7 +2297,7 @@ void *stress_sen_dxmt(ITG *i){
 		ialeneigh1,&neaneigh,&nebneigh,ialnneigh1,&naneigh,&nbneigh,
 		stn1,expks1,ndesi1,physcon1);
   
-  return NULL;
+  return;
 }
 
 /* -----------------------------------------------------------*/
@@ -2362,7 +2362,7 @@ void *stress_sen_dvmt(ITG *i){
 		&neaneigh,&nebneigh,ialnneigh1,&naneigh,&nbneigh,stn1,expks1,
 		objectset1,&idof,&node,&idir,vold1,&dispmin1,physcon1);
  
-  return NULL;
+  return;
 }
 
 /* -----------------------------------------------------------*/
@@ -2434,7 +2434,7 @@ void *peeq_sen_dxmt(ITG *i){
 	      ialeneigh1,&neaneigh,&nebneigh,ialnneigh1,&naneigh,&nbneigh,
 	      epn1,expks1,ndesi1,physcon1);
   
-  return NULL;
+  return;
 }
 
 /* -----------------------------------------------------------*/
@@ -2499,5 +2499,5 @@ void *peeq_sen_dvmt(ITG *i){
 	      &neaneigh,&nebneigh,ialnneigh1,&naneigh,&nbneigh,epn1,expks1,
 	      objectset1,&idof,&node,&idir,vold1,&dispmin1,physcon1);
  
-  return NULL;
+  return;
 }

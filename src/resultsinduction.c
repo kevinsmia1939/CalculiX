@@ -337,7 +337,7 @@ void *resultsemmt(ITG *i){
 		       sti1,alcon1,nalcon1,h01,istartset1,iendset1,ialset1,
 		       iactive1,fn1,eei1,iout1,nmethod1));
 
-    return NULL;
+    return;
 }
 
 /* subroutine for multithreading of resultstherm */
@@ -372,5 +372,5 @@ void *resultsthermemmt(ITG *i){
 	   ielprop1,prop1,iponoeln1,inoeln1,network1,ipobody1,xbody1,ibody1,
 	   thicke1));
 
-    return NULL;
+    return;
 }

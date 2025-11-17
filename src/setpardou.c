@@ -96,5 +96,5 @@ void *setpardoumt(ITG *i){
     	var11[j]=*var21;
     }
 
-    return NULL;
+    return;
 }

@@ -311,5 +311,5 @@ void *resultsmechmtstr(ITG *i){
 		       t0g1,t1g1,islavquadel1,aut1,irowt1,jqt1,
 		       &mortartrafoflag1,&intscheme1,physcon1));
 
-  return NULL;
+  return;
 }

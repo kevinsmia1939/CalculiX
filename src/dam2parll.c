@@ -102,5 +102,5 @@ void *dam2parllmt(ITG *i){
 	dampwk1[*i]+=-(cv1[k]+cvini1[k])*aux21[k]/2.;
     }
 
-    return NULL;
+    return;
 }

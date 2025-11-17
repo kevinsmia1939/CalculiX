@@ -347,5 +347,5 @@ void *resultsmechmt_se(ITG *i){
 	  &fn01[indexfn0],sti1,icoordinate1,dxstiff1,ialdesi1,xdesi1,
 	  physcon1));
 
-    return NULL;
+    return;
 }

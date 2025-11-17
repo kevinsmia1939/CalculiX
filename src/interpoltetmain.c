@@ -203,5 +203,5 @@ void *interpoltetmt(ITG *i){
 		       netet1,kontet1,cotet1,iparent1,co1,&nkfa,&nkfb,
 		       konl1,ratio1,ikf1));
 
-  return NULL;
+  return;
 }

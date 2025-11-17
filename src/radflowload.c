@@ -713,6 +713,6 @@ void *calcviewmt(ITG *i){
 		    ntrit1,mi1,jqrad1,irowrad1,nzsrad1,&sidemean1,
 		    &ntria,&ntrib,&covered1[indexcovered],&ng1));
 
-  return NULL;
+  return;
 }
     

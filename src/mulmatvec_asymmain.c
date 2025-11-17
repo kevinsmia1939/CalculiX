@@ -164,7 +164,7 @@ void *mulmatvec_asymmt1(ITG *i){
   FORTRAN(mulmatvec_asym,(au1,jq1,irow1,x1,&yy[indexf],itranspose1,
 			  &ncola,&ncolb));
 
-  return NULL;
+  return;
 }
 
 /* collecting the results (only needed for itranspose=0) */
@@ -185,7 +185,7 @@ void *mulmatvec_asymct1(ITG *i){
     }
   }
 
-  return NULL;
+  return;
 }
 
 /* subroutine for multithreading of mulmatvec_asym (itranspose=1) */
@@ -202,6 +202,6 @@ void *mulmatvec_asymmt2(ITG *i){
   FORTRAN(mulmatvec_asym,(au1,jq1,irow1,x1,yy1,itranspose1,
 			  &ncola,&ncolb));
 
-  return NULL;
+  return;
 }
 

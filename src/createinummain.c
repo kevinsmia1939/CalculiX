@@ -171,7 +171,7 @@ void *createinummt(ITG *i){
 		       islavquadel1,aut1,irowt1,jqt1,mortartrafoflag1,
 		       intscheme1,physcon1));
 
-  return NULL;
+  return;
 }
 
 /* subroutine for multithreading of resultstherm */
@@ -200,7 +200,7 @@ void *resultsthermmt(ITG *i){
 			pmastsurf1,mortar1,clearini1,plicon1,nplicon1,ielprop1,
 			prop1,iponoel1,inoel1,network1,ipobody1,xbody1,ibody1));
 
-  return NULL;
+  return;
 }
 
 /* subroutine for multithreading of calcenergy */
@@ -218,5 +218,5 @@ void *calcenergymt(ITG *i){
 		      thicke1,ielmat1,&energy1[indexenergy],
 		      ielprop1,prop1,&nea,&neb));
 
-  return NULL;
+  return;
 }

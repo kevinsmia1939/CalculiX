@@ -188,6 +188,6 @@ void *filter_forwardmt(ITG *i){
 		  &r1[indexr],&ndesia,&ndesib,xdesi1,distmin1,feasdir1,
 		  &filterval1[indexr]));
 
-  return NULL;
+  return;
 }
     

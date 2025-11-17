@@ -965,7 +965,7 @@ void *sortingmt(ITG *i){
     }
   }
   
-  return NULL;
+  return;
 }
 
 /* sorting the row entries in each column */
@@ -986,5 +986,5 @@ void *sortingfreqmt(ITG *i){
     }
   }
   
-  return NULL;
+  return;
 }

@@ -177,5 +177,5 @@ void *packagingmt(ITG *i){
 		       iobject1,ndesi1,dgdxglob1,nk1,extnor1,&g01[indexg0],
 		       nodenum1));       
        
-    return NULL;
+    return;
 }

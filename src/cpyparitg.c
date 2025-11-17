@@ -94,5 +94,5 @@ void *cpyparitgmt(ITG *i){
     	iva11[j]=iva21[j];
     }
 
-    return NULL;
+    return;
 }

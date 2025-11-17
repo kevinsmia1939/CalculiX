@@ -100,5 +100,5 @@ void *res4parllmt(ITG *i){
 	b1[k]-=*scal11*cv1[k]-alpha1[0]*cvini1[k];
     }
 
-    return NULL;
+    return;
 }

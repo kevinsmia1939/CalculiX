@@ -95,5 +95,5 @@ void *divparllmt(ITG *i){
     	var11[j]=var11[j]/var21[j];
     }
 
-    return NULL;
+    return;
 }

@@ -111,5 +111,5 @@ void *dgmres1mt(ITG *i){
 		     &rgwk1[indexrgwk],lrgw1,&igwk1[indexigwk],
 		     ligw1,&rwork1[nestart1[*i]],iwork1));
 
-    return NULL;
+    return;
 }

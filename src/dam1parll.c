@@ -100,5 +100,5 @@ void *dam1parllmt(ITG *i){
 	}
     }
 
-    return NULL;
+    return;
 }

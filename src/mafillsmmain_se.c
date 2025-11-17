@@ -321,5 +321,5 @@ void *mafillsmsemt(ITG *i){
     }
 	
 	    
-    return NULL;
+    return;
 }

@@ -105,5 +105,5 @@ void *worparllmt(ITG *i){
 	}
     }
 
-    return NULL;
+    return;
 }
