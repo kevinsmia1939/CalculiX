@@ -188,6 +188,6 @@ void *biotsavartmt(ITG *i){
     FORTRAN(biotsavart,(ipkon1,kon1,lakon1,ne1,co1,qfx1,h01,mi1,&nka,
 			&nkb));
 
-    return;
+    return NULL;
 }
 
