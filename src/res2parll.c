@@ -101,5 +101,5 @@ void *res2parllmt(ITG *i){
 	    -adb1[k]*aux21[k];
     }
 
-    return;
+    return NULL;
 }

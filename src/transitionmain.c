@@ -171,5 +171,5 @@ void *transitionmt(ITG *i){
                         xo1,yo1,zo1,x1,yy1,z1,nx1,ny1,nz1,co1,&ifree1,
                         &ndesia,&ndesib));
 
-    return;
+    return NULL;
 }

@@ -97,5 +97,5 @@ void *solveeqparmt(ITG *i){
     sol1[j]=b1[j]*adl1[j];
   }
 
-  return;
+  return NULL;
 }

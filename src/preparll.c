@@ -113,5 +113,5 @@ void *preparllmt(ITG *i){
 	}
     }
 
-    return;
+    return NULL;
 }

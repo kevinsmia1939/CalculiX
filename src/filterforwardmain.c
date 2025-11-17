@@ -460,7 +460,7 @@ void *mafillmmmt2(ITG *i){
 		    jq1,ipkonfa1,konfa1,lakonfa1,nodedesipos1,idesiface1,
 		    &nsurfa,&nsurfb,&area1[indexad]));	    
 
-  return;
+  return NULL;
 }
     
 #endif

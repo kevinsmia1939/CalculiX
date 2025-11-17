@@ -148,5 +148,5 @@ void *resforccontmt(ITG *i){
     }
   }
   
-  return;
+  return NULL;
 }
