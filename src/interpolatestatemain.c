@@ -153,6 +153,6 @@ void *interpolatestatemainmt(ITG *i){
     }
   }
 
-  return;
+  return NULL;
 }
 

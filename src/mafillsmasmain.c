@@ -299,5 +299,5 @@ void *mafillsmasmt(ITG *i){
 		      clearini1,ielprop1,prop1,ne01,kscale1,iponoeln1,inoeln1,
 		      network1,&neam,&nebm,&neat,&nebt,set1,nset1));
 
-  return;
+  return NULL;
 }

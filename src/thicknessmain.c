@@ -175,5 +175,5 @@ void *thicknessmt(ITG *i){
 		       x1,yy1,z1,nx1,ny1,nz1,co1,&ifree1,&ndesia,&ndesib,
 		       iobject1,dgdxglob1,nk1,extnor1,&g01[indexg0],coini1));
        
-    return;
+    return NULL;
 }

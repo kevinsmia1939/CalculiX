@@ -458,5 +458,5 @@ void *mafillsmmt(ITG *i){
 		    network1,smscale1,mscalmethod1,set1,nset1,islavquadel1,
 		    aut1,irowt1,jqt1,mortartrafoflag1));
 
-  return;
+  return NULL;
 }

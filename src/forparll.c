@@ -91,5 +91,5 @@ void *forparllmt(ITG *i){
 	}
     }
 
-    return;
+    return NULL;
 }

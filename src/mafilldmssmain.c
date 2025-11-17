@@ -270,5 +270,5 @@ void *mafilldmssmt(ITG *i){
 	    pmastsurf1,mortar1,clearini1,ielprop1,prop1,ne01,
 	    &nea,&neb,freq1,ndamp1,dacon1,set1,nset1));
 
-    return;
+    return NULL;
 }

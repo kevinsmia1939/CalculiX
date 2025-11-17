@@ -252,6 +252,6 @@ void *rhsmt(ITG *i){
 	       &nactmech1[*i],ielprop1,prop1,sti1,xstateini1,xstate1,nstate_1,
 	       ntrans1,inotr1,trab1,&fnext1[indexfnext],&nea,&neb));
 
-  return;
+  return NULL;
 }
 
