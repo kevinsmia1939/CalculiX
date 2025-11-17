@@ -96,5 +96,5 @@ void *cpypardoumt(ITG *i){
     	var11[j]=var21[j];
     }
 
-    return;
+    return NULL;
 }
